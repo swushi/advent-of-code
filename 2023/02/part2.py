@@ -26,8 +26,7 @@ with open('data.txt') as file:
 
         maxs[color] = max(int(amount), maxs[color])
     
-    print(id, sum)
-    power = maxs['blue'] * maxs['green'] * maxs['green']
+    power = maxs['blue'] * maxs['green'] * maxs['red']
     sum += power
 
   print(sum)
